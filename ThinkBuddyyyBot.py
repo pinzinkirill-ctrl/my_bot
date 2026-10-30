@@ -9,7 +9,7 @@ TOKEN = ("8067866743:AAEwaJXCwByaaHp0RK-0XLMBsDMOz06mHoY")
 bot = telebot.TeleBot(TOKEN)
 
 # Твой ID в Telegram для доступа к админ-панели /stats
-ADMIN_ID = 105385  
+ADMIN_ID = 5042506907  
 
 # Функция для нормализации текста (приравниваем Е и Ё)
 def normalize_text(text):
