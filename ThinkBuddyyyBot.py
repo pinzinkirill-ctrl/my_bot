@@ -5,7 +5,7 @@ import os
 import html
 
 # Считываем токен из переменных окружения хостинга
-TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8067866743:AAEwaJXCwByaaHp0RK-0XLMBsDMOz06mHoY")
+TOKEN = ("8067866743:AAEwaJXCwByaaHp0RK-0XLMBsDMOz06mHoY")
 bot = telebot.TeleBot(TOKEN)
 
 # Твой ID в Telegram для доступа к админ-панели /stats
